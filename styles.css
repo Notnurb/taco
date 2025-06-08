@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background: #fffaf2;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: #ff6347;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 1rem;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  text-align: center;
+  padding: 2rem;
+  background: #ffe0b2;
+}
+
+.menu,
+.gallery,
+.contact {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu li {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.gallery .photos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.gallery img {
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.contact p {
+  margin: 0.5rem 0;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #ff6347;
+  color: white;
+}
